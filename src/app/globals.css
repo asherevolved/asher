@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-primary: #ffb4a4;
+  --color-primary-fixed: #ffdad3;
+  --color-primary-fixed-dim: #ffb4a4;
+  --color-primary-container: #ff5634;
+  --color-on-primary: #640d00;
+  --color-on-primary-fixed: #3e0500;
+  --color-on-primary-fixed-variant: #8d1600;
+  --color-on-primary-container: #580a00;
+  --color-inverse-primary: #b82000;
+
+  /* Secondary */
+  --color-secondary: #c6c6c6;
+  --color-secondary-fixed: #e3e2e2;
+  --color-secondary-fixed-dim: #c6c6c6;
+  --color-secondary-container: #484949;
+  --color-on-secondary: #2f3131;
+  --color-on-secondary-fixed: #1a1c1c;
+  --color-on-secondary-fixed-variant: #464747;
+  --color-on-secondary-container: #b8b8b8;
+
+  /* Tertiary */
+  --color-tertiary: #c7c6c6;
+  --color-tertiary-fixed: #e3e2e2;
+  --color-tertiary-fixed-dim: #c7c6c6;
+  --color-tertiary-container: #919191;
+  --color-on-tertiary: #2f3031;
+  --color-on-tertiary-fixed: #1b1c1c;
+  --color-on-tertiary-fixed-variant: #464747;
+  --color-on-tertiary-container: #292a2a;
+
+  /* Error */
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+
+  /* Background */
+  --color-background: #131313;
+  --color-on-background: #e5e2e1;
+
+  /* Surface */
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-bright: #3a3939;
+  --color-surface-tint: #ffb4a4;
+  --color-surface-variant: #353534;
+  --color-surface-container: #201f1f;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #e6bdb5;
+  --color-inverse-surface: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+
+  /* Outline */
+  --color-outline: #ac8881;
+  --color-outline-variant: #5c403a;
+
+  /* Border Radius */
+  --radius: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+@theme inline {
+  --font-helvetica: var(--font-helvetica-now);
+  --font-headline: var(--font-space-grotesk);
+  --font-body: var(--font-helvetica-now);
+  --font-label: var(--font-helvetica-now);
+  --font-display: var(--font-anton);
+}
+
+/* ── Lenis smooth scroll ──────────────────────────────────────────────────── */
+/* Prevent browser native smooth scroll from conflicting with Lenis          */
+html {
+  scroll-behavior: auto !important;
+}
+
+/* Lenis sets this class on <html> – keep height fluid                        */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+/* ─────────────────────────────────────────────────────────────────────────── */
+
+body {
+  background-color: #000000;
+  color: #e5e2e1;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #ff5634;
+  color: #580a00;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.kinetic-text {
+  line-height: 0.9;
+}
+
+.tonal-stacking-top {
+  border-top: 1px solid rgba(255, 73, 37, 0.1);
+}

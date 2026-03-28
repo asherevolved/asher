@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "Bash(file:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:nakula.framer.website)",
+      "Bash(grep:*)",
+      "Bash(npx next:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:www.talentless.media)"
+    ]
+  }
+}
