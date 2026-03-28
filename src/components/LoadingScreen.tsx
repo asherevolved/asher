@@ -69,7 +69,8 @@ export default function LoadingScreen() {
       {/* ASHER text */}
       <h1
         ref={textRef}
-        className="font-display text-[5rem] md:text-[8rem] lg:text-[12rem] text-black uppercase leading-none tracking-tighter"
+        className="font-display text-[5rem] md:text-[8rem] lg:text-[12rem] uppercase leading-none tracking-tighter"
+        style={{ color: "#000000" }}
       >
         ASHER
       </h1>

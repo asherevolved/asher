@@ -11,7 +11,8 @@
       "Bash(grep:*)",
       "Bash(npx next:*)",
       "Bash(curl:*)",
-      "WebFetch(domain:www.talentless.media)"
+      "WebFetch(domain:www.talentless.media)",
+      "Bash(npx tsc:*)"
     ]
   }
 }

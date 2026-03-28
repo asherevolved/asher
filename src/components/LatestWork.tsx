@@ -24,7 +24,7 @@ const projects: Project[] = [
     name: "Deos Originals",
     title: "Deos Originals",
     description: "Website for a Marketing Agency",
-    images: ["/work-arjuna-1.png"],
+      images: ["/deoss original.png"],
     url: "https://deos-website-final.vercel.app",
   },
   {
@@ -33,7 +33,7 @@ const projects: Project[] = [
     name: "Seasons Landscapers",
     title: "Seasons Landscapers",
     description: "Website for a Landscaping Company",
-    images: ["/work-bima.png"],
+      images: ["/seson.png"],
     url: "https://seasonslandscapers.com",
   },
   {
@@ -42,7 +42,7 @@ const projects: Project[] = [
     name: "Seven Scale",
     title: "Seven Scale",
     description: "Website for a Marketing Agency",
-    images: ["/work-mandala-1.png", "/work-mandala-2.png"],
+      images: ["/seven scaleee.png"],
     url: "https://sevenscale.in",
   },
   {
@@ -51,7 +51,7 @@ const projects: Project[] = [
     name: "Valt Xi",
     title: "Valt Xi",
     description: "Concept Website",
-    images: ["/work-valt-xi.png"],
+      images: ["/valt xi (2).png"],
     url: "https://valt-one.vercel.app",
   },
 ];

@@ -19,11 +19,11 @@ export default function Home() {
       >
         <HeroIntro>
           <video
+            id="hero-video"
             src="/hero.mp4"
-            autoPlay
             muted
-            loop
             playsInline
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover"
           />
         </HeroIntro>
@@ -59,11 +59,6 @@ export default function Home() {
               <span className="text-primary-container">monuments</span> for the
               digital age.&rdquo;
             </p>
-            <footer className="mt-12">
-              <span className="font-label text-sm uppercase tracking-[0.2rem] text-primary">
-                Julian Thorne, CEO Aetherium
-              </span>
-            </footer>
           </blockquote>
         </div>
       </StickySection>

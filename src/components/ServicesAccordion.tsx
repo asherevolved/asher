@@ -9,28 +9,28 @@ const services = [
     title: "Web & App Dev",
     tagline: "Websites and apps built to perform, fully alive.",
     tags: ["Next.js", "React", "Mobile Apps", "E-commerce"],
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuABEBZssErfc35AU6PVI4UniFTRhZC4zAFZOkhALS4m583XddzLgQGWrGHV3jOR44I55n-dD-BiZN0tY6ruoaOv3UbZbphE8NMgmwWTW5eKsQZBav39fY1Ec37eKg6kLeBvwFs21Mdipf1z53k9NJkQOAvfHuH1OY8jdX0O9-k2XCUCh_qy0DvNh2KQUVWJy9OW5upczYmd3AOOCNklwamj-2-9MfjpJ9qEr3dfsy5PfGG2s6vrCZnDua99FUVMx8o1dg1bGpw7fcBk",
+    img: "/mockups/pexels-mikhail-nilov-7988114.jpg",
   },
   {
     n: "02.",
     title: "Social Media Management",
     tagline: "Grow your presence, consistently and intentionally.",
     tags: ["Content Calendars", "Platform Strategy", "Analytics", "Community"],
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBAaPUpoKAiHBKfG2t3X_X_61pHyBzMGku77pN7HJYDHdKjg9Wf7egwY1ZCODdzGByMASEros32Q7pWY7Jlb7wPGhJbdIMulFxBowOTo1aLoG-TrhOeHxWNzkBpvP9XSPgS534W64EsGC_-wMg8eLblCnRSZwn_z983V7Heg2wK8dcDqwaSfbpqssyjDfSV3o7yLq8vEKWfh0uWnDlaaPykljrtwW7lvS9KQDqpBTrjDOlPnM2cPt_KM89hdXEDIuKpaKzF-YuYgFqF",
+    img: "/mockups/pexels-freestockpro-9822748.jpg",
   },
   {
     n: "03.",
     title: "Branding",
     tagline: "Logos, colors, type — your brand, fully alive.",
     tags: ["Logo Design", "Brand Guidelines", "Color Systems", "Typography"],
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCaLeTvvsWuDj4g_f6_GvSVZF7Zx29s-H5WaOeMliN1ZDiPOI5P3FTc40gkowx6Hl6r3Fr3qVyftDgzPzVz8o3lZgBKLyU2gZtRlmfjBdWKM74SzCnxvX1zqq7Eq9wijjdn9sW4qvjfaEHswHXZtaVx2FQB4Gs9euqXlN17ufq0oDGZVzniROKH-TbZdCyXZ4DTzsFMrxu6R_lsW2cjLogyn5XopDe89mHZbcg7hqfZKIevF8vQlCkr9VGkkm8XoH4FXXE2Bw7LMkoZ",
+    img: "/mockups/pexels-karola-g-4491446.jpg",
   },
   {
     n: "04.",
     title: "Content Creation",
     tagline: "Visuals and copy that make people stop scrolling.",
     tags: ["Photography", "Video Editing", "Copywriting", "Visual Assets"],
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDVj0jvC3x4mitm3y1QtdD8hZEHexWApGsIQxOxPoFKmEx4RE1pcMzDQLES7mIbjHUwVqBGUFxqB8qJ0X0O-6n185mvzEjCqQV-7n8UvT9795tAkP5UwpNlkcrlqPLzIWSERxwuAaxd0pQP5wRr9g7QFjy-N8sYJWEQWDjfnvWn1qA6l4DFlp_XExu9WrY6nHv4HvLUeMN0ZJrP-T-HFcfes9NrTh14bcFovTMT5l3H89I2ZmShqfAK5Eaopngvsm6zjUonOSDq958B",
+    img: "/mockups/pexels-eva-bronzini-7661590.jpg",
   },
 ];
 

@@ -64,10 +64,10 @@ export default function Footer() {
                 (Email)
               </span>
               <a
-                href="mailto:hello@asher.com"
-                className="block text-primary-container font-body text-lg md:text-xl font-bold mt-1 hover:text-white transition-colors"
+                href="mailto:asher.infernoservices@gmail.com"
+                className="block text-primary-container font-body text-sm md:text-base font-bold mt-1 hover:text-white transition-colors"
               >
-                hello@asher.com
+                asher.infernoservices@gmail.com
               </a>
             </div>
             <div>
@@ -75,7 +75,7 @@ export default function Footer() {
                 (Phone)
               </span>
               <p className="text-white font-body text-lg md:text-xl font-bold mt-1">
-                +12 345678
+                +91 8073755518
               </p>
             </div>
           </div>
@@ -105,10 +105,9 @@ export default function Footer() {
             </span>
             <nav className="flex flex-col gap-3">
               {[
-                { name: "X/Twitter", href: "#" },
-                { name: "Instagram", href: "#" },
-                { name: "LinkedIn", href: "#" },
-                { name: "Behance", href: "#" },
+                { name: "X/Twitter", href: "https://x.com/AsherAscended" },
+                { name: "Instagram", href: "https://www.instagram.com/crusader.asher/" },
+                { name: "LinkedIn", href: "https://www.linkedin.com/in/asher-shalom-1849072a4" },
               ].map((social) => (
                 <a
                   key={social.name}
@@ -178,7 +177,8 @@ export default function Footer() {
           {/* Large ASHER text */}
           <h2
             ref={asherTextRef}
-            className="font-display text-[6rem] md:text-[10rem] lg:text-[14rem] xl:text-[18rem] text-black uppercase leading-[0.8] tracking-tighter origin-bottom-left"
+            className="font-display text-[6rem] md:text-[10rem] lg:text-[14rem] xl:text-[18rem] uppercase leading-[0.8] tracking-tighter origin-bottom-left"
+            style={{ color: "#000000" }}
           >
             ASHER
             <sup className="text-[1.5rem] md:text-[2rem] align-top ml-1 tracking-normal">
